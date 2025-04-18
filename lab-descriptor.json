@@ -5,59 +5,66 @@
         "code": "BIO"
     },
     "lab": "Molecular Biology Virtual Lab II",
-    "lab_display_name": "Microbiology Virtual Lab I",
+    "lab_display_name": "Molecular Biology Virtual Lab II",
     "deployLab": true,
     "phase": 2,
     "collegeName": "AMRT",
-    "baseUrl": "mvi-au.vlabs.ac.in",
-    "introduction": "Microbiology Virtual Lab 1 is designed to facilitate the study of microorganisms, including eukaryotes like fungi and protists, prokaryotes such as bacteria, and viruses, which, though not strictly classified as living organisms, are also examined. This virtual lab offers simulations of fundamental microbiological techniques, enabling learners to conduct experiments in a controlled, virtual environment. Key experiments available in this lab include<br><ul><li>Streak Plate Method: Isolating pure microbial colonies from mixed populations.</li><li>Motility Test: Assessing the movement capabilities of bacteria.</li><li>Catalase and Coagulase Tests: Identifying bacterial enzymes that detoxify hydrogen peroxide and cause blood coagulation.</li><li>Lecithinase Test: Detecting the production of lecithinase enzyme by bacteria.</li><li>Bacterial Growth Curve: Studying bacterial growth phases by plotting optical density over time.</li><li>Differential and Cytological Staining Techniques: Employing special stains to reveal bacterial morphology.</li><li>Antibiotic Susceptibility Testing: Evaluating the effectiveness of antibiotics against specific bacteria.</li></p>",
+    "baseUrl": "mbvii-au.vlabs.ac.in",
+    "introduction": "Molecular biology explores the intricate mechanisms that control cellular processes by examining the roles and interactions of DNA, RNA, and proteins. As a bridge between genetics and biochemistry, it seeks to understand how molecular components contribute to the function and regulation of living systems.Molecular Biology Virtual Lab II offers a set of interactive experiments designed to simulate key techniques used in modern molecular biology research. These include<br><ul><li>Polymerase Chain Reaction (PCR)—amplifying DNA segments to study gene expression, mutations, and more.</li> <li>Polyacrylamide Gel Electrophoresis (PAGE)—separating proteins based on size and charge for analysis.</li><li>Electroblotting—transferring proteins from gels to membranes for identification.</li><li>Plasmid Curing—eliminating plasmids from bacteria to study genetic traits and antibiotic resistance.</li><li>Bacteriophage DNA Extraction—isolating phage DNA for molecular and genetic analysis.</li><br>Through these simulations, learners can gain practical insights into laboratory workflows and develop a deeper un Developing a deeper understanding of experimental molecular biology makes it an ideal preparatory tool for real lab environments and advanced studies.",
     "experiments": [
         {
-            "name": "Bacterial Growth Curve",
-            "short-name": "bacterial-growth-curve",
-            "repo": "https://github.com/virtual-labs/exp-bacterial-growth-curve-au",
+            "name": "Polyacrylamide Gel Electrophoresis",
+            "short-name": "polyacrylamide-gel-electrophoresis",
+            "repo": "https://github.com/virtual-labs/exp-polyacrylamide-gel-electrophoresis-au",
             "tag": "v1.0.0",
             "deploy": true
         },
         {
-            "name": "Catalase and Coagulase Test",
-            "short-name": "catalase-coagulase-test",
-            "repo": "https://github.com/virtual-labs/exp-catalase-coagulasei-test-au",
+            "name": "Polymerase Chain Reaction (PCR)",
+            "short-name": "polymerase-chain-reaction",
+            "repo": "https://github.com/virtual-labs/exp-polymerase-chain-reaction-au",
             "tag": "v1.0.0",
             "deploy": true
         },
         {
-            "name": "Differential and Cytological Staining Techniques",
-            "short-name": "differential-cytological-staining",
-            "repo": "https://github.com/virtual-labs/exp-differential-cytological-staining-au",
+            "name": "Electroblotting",
+            "short-name": "electroblotting",
+            "repo": "https://github.com/virtual-labs/exp-electroblotting-au",
             "tag": "v1.0.0",
             "deploy": true
         },
         {
-            "name": "Streak Plate Method",
-            "short-name": "streak-plate-method",
-            "repo": "https://github.com/virtual-labs/exp-streak-plate-method-au",
+            "name": "Extraction of Bacteriophage DNA from Large Scale Cultures Using Proteinase K and SDS",
+            "short-name": "bacteriophage-dna-extraction",
+            "repo": "https://github.com/virtual-labs/exp-bacteriophage-dna-au",
             "tag": "v1.0.0",
             "deploy": true
         },
         {
-            "name": "Lecithinase Test",
-            "short-name": "lecithinase-test",
-            "repo": "https://github.com/virtual-labs/exp-lecithinase-test-au",
+            "name": "Ligation (Using T4 DNA Ligase)",
+            "short-name": "ligation",
+            "repo": "https://github.com/virtual-labs/exp-ligation-au",
             "tag": "v1.0.0",
             "deploy": true
         },
         {
-            "name": "Motility Test",
-            "short-name": "motility-test",
-            "repo": "https://github.com/virtual-labs/exp-motility-test-au",
+            "name": "Plasmid Curing",
+            "short-name": "plasmid-curing",
+            "repo": "https://github.com/virtual-labs/exp-plasmid-curing-au",
             "tag": "v1.0.0",
             "deploy": true
         },
         {
-            "name": "Antibiotic Susceptibility Testing",
-            "short-name": "antibiotic-susceptibility-testing",
-            "repo": "https://github.com/virtual-labs/exp-antibiotic-susceptibility-testing-au",
+            "name": "Plating of the Bacteriophage",
+            "short-name": "bacteriophage-plating",
+            "repo": "https://github.com/virtual-labs/exp-bacteriophage-au",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Preparation of Stocks of Bacteriophage Lambda by Plate Lysis and Elution",
+            "short-name": "bacteriophage-lambda",
+            "repo": "https://github.com/virtual-labs/exp-bacteriophage-lambda-au",
             "tag": "v1.0.0",
             "deploy": true
         }
@@ -72,17 +79,17 @@
             "M.Tech Biotechnology"
         ]
     },
-    "objective": "Microbiology Virtual Lab I, offers an interactive platform for exploring fundamental microbiological concepts and techniques. It facilitates the study of various microorganisms, including bacteria, fungi, protists, and viruses, through simulated experiments. The lab encompasses a range of experiments such as Gram staining, aseptic techniques, streak plate methods, motility tests, catalase and coagulase tests, selective and differential media usage, lecithinase tests, bacterial growth curve analysis, carbohydrate fermentation tests, differential and cytological staining techniques, antibiotic susceptibility testing, and methylene blue reductase tests. These simulations aim to enhance understanding of microbial physiology, pathogenicity, and laboratory practices, providing a comprehensive learning experience for students and researchers in the field of microbiology.",
+    "objective": "The primary aim of this virtual lab is to provide learners with hands-on experience in advanced molecular biology protocols. It focuses on techniques such as RNA isolation, polymerase chain reaction (PCR), polyacrylamide gel electrophoresis (PAGE), electroblotting, plasmid curing, and bacteriophage DNA extraction. Through these simulations, users can grasp the principles and applications of these methods in molecular biology research.",
     "courseAlignment": {
         "description": "",
         "universities": [
-            "University of Delhi",
-            "Panjab University",
-            "Banaras Hindu University (BHU)",
-            "Amity University",
-            "University of Hyderabad",
-            "Jawaharlal Nehru University (JNU)",
-            "University of Calcutta"
+            "Indian Institute of Science (IISc), Bangalore",
+            "Pondicherry University",
+            "M. S. Ramaiah University of Applied Sciences",
+            "University of Calcutta",
+            "Manipal Academy of Higher Education",
+            "Indian Institute of Technology (IIT) Bombay",
+            "Indian Institute of Technology (IIT) Madras"
         ]
     }
 }
